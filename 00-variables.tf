@@ -1,12 +1,15 @@
 variable "yandex_token" {
   default = "xxx"
 }
+
 variable "yandex_cloud_id" {
   default = "xxx"
 }
+
 variable "yandex_folder_id" {
   default = "xxx"
 }
+
 variable "yandex_zone" {
   default = "xxx"
 }
@@ -65,4 +68,9 @@ variable "cluster_name" {
 
 variable "cluster_subnet" {
   default = ["10.0.0.0/24"]
+}
+
+variable "image_id" {
+  description = "Ubuntu 18.04 LTS"
+  default     = "fd83i5r5g44fjkdpuuva"
 }
