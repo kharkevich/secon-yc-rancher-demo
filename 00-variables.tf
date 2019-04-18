@@ -42,6 +42,10 @@ variable "rancher_version" {
   default = "latest"
 }
 
+variable "count_rancher_node" {
+  default = "1"
+}
+
 variable "count_agent_all_nodes" {
   default = "3"
 }
